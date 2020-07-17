@@ -1,0 +1,48 @@
+:root {
+    --color-bg: #4153FA;
+    --color-bar: #4153FA;
+    --metric-bar-height: .35em;
+    --metric-bar-width: 1.5em;
+}
+
+.hamburger {
+    
+}
+
+/* checkbox */
+.bar {
+    top: auto;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+}
+
+/* bars */
+.bar__element {
+    margin: 0.2em 20em;
+    width: var(--metric-bar-width);
+    height: var(--metric-bar-height);
+    background-color: var(--color-bar);
+    transition: all 0.4s ease;
+    border-radius: 15px;
+    box-shadow: 1px 0px 10px hsla(0, 0%, 20%, 0.2);
+}
+
+[type='checkbox']:hover+label .bar__element {
+    filter: brightness(1.05);
+}
+
+[type='checkbox']:checked+label .one {
+    transform: translateY(8px) rotate(45deg);
+}
+
+[type='checkbox']:checked+label .three {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+[type='checkbox']:checked+label .two {
+    transform: scale(0);
+    transition: all 150ms ease;
+}

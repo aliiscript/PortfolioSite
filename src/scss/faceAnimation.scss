@@ -1,0 +1,13 @@
+#glasses {
+    opacity: 1;
+    stroke-dasharray: 200;
+    animation: dash 20s linear infinite;
+}
+
+
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 900;
+    }
+}

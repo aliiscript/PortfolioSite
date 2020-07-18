@@ -3,38 +3,30 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 export default class Card extends Component {
     render() {
-        const items = this.props.skill.itemsList;
-        const listItems = items.map((item) => (
+        const items = this.props.skill.toolsList;
+        const listItems = items.map((item) =>
             <li className="tool tool--styles">{item}</li>
-        ));
+        );
         return (
             <div className="card card--styles">
                 <div className="icon-container">
-                    <i
-                        class={
-                            "icon2 icon2--styles fas " +
-                            this.props.skill.icon +
-                            " fa-3x"
-                        }
-                    ></i>
-                    <i
-                        class={"icon fas " + this.props.skill.icon + " fa-3x"}
-                    ></i>
+                    <i class={"icon2 icon2--styles fas " + this.props.skill.icon + " fa-3x"}></i>
+                    <i class={"icon fas " + this.props.skill.icon + " fa-3x"}></i>
                 </div>
                 <div className="title-container title-container--styles">
-                    <h1 className="title title--styles">
-                        {this.props.skill.title}
-                    </h1>
+                    <h1 className="title title--styles">{this.props.skill.title}</h1>
                 </div>
                 <div className="summary-container summary-container--styles">
-                    <p className="summary summary--styles">
-                        {this.props.skill.summary}
-                    </p>
+                    <p className="summary summary--styles">{this.props.skill.summary}</p>
+                </div>
+                <div className="itemsTitle-container itemsTitle-container--styles">
+                    <h1 className="itemsTitle itemsTitle--styles">{this.props.skill.itemsTitle}</h1>
+                </div>
+                <div className="items-container items-container--styles">
+                    <p className="items items--styles">{this.props.skill.itemsList}</p>
                 </div>
                 <div className="tools-container  tools-container--styles">
-                    <h1 className="tools-title tools-title--styles">
-                        {this.props.skill.listtitle}
-                    </h1>
+                    <h1 className="tools-title tools-title--styles">{this.props.skill.listtitle}</h1>
                     <ul className="tools-list tools-list--styles">
                         {listItems}
                     </ul>

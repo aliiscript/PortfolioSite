@@ -68,6 +68,28 @@ sans-serif;
     color: lighten($color: $primaryclr, $amount: 8)
 }
 
+.itemsTitle {
+    text-align: center;
+}
+
+.itemsTitle--styles {
+    font-family: $fontbld;
+    color: $primaryclr;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.items {
+    padding: 5%;
+    text-align: center;
+}
+
+.items--styles {
+    font-family: $font2;
+    font-weight: 600;
+    color: lighten($color: $primaryclr, $amount: 8)
+}
+
 .tools-title{
     text-align: center;
     padding: 5%;

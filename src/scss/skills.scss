@@ -17,3 +17,14 @@ bold;
 .skills--styles {
     background-color: $primaryclr;
 }
+
+.skills-title {
+    text-align: center;
+    padding-top: 4%;
+}
+
+.skills-title--styles {
+    font-size: 32px;
+    font-family: $fontmn;
+    color: $bg;
+}

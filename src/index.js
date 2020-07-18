@@ -7,6 +7,10 @@ import "./scss/index.scss";
 import "./scss/faceAnimation.scss";
 import "./scss/skills.scss";
 import "./scss/card.scss";
+import "./scss/projects.scss";
+import "./scss/project.scss";
+import "./scss/footer.scss";
+import "./scss/smallSvg.scss";
 
 import App from "./App";
 

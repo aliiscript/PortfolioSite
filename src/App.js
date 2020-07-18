@@ -4,17 +4,13 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import Main from "./components/Main";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
 
 class App extends Component {
     render() {
         return (
-            <Router>
-                <Switch>
-                    <Route exact path="/" component={Main} />
-                </Switch>
-            </Router>
+            <div className="main">
+                <Main />
+            </div>
         );
     }
 }

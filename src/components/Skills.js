@@ -13,7 +13,7 @@ export default class Skills extends Component {
                     title: "Designer",
                     summary: "My design philosophy is less is better. I value clean and minimalist designs.",
                     itemsTitle: "What I love to Design:",
-                    itemsList: ["Desktop", "Mobile", "SVGs", "UI/UX"],
+                    itemsList: "Desktop, Mobile, SVGs, UI/UX",
                     listtitle: "Design tools:",
                     toolsList: ["Figma", "Illustrator", "Photoshop", "Codepen", "SVG"],
                 },
@@ -41,7 +41,10 @@ export default class Skills extends Component {
     
     render() {
         return (
-            <div id="skill-section" className="skills skills--styles">
+            <div className="skills skills--styles">
+                <div className="skills-title-container">
+                    <h1 id="skills-section" className="skills-title skills-title--styles">Skills</h1>
+                </div>
                 <div className="design-skills">
                     <Card skill={this.state.skills[0]} />
                 </div>

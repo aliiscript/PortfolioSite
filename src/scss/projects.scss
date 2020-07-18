@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$bg: #C5C5C5;
+$primaryclr: #4153FA;
+$secondaryclr: #F141FA;
+
+$fontmn: 'Ubuntu Mono',
+monospace;
+$fontbld: 'Ubuntu Mono',
+bold;
+$font2: 'Roboto',
+sans-serif;
+
+.projects {
+    width: 90.2%;
+    padding: 5%;
+    margin-top: 4%;
+    height: auto;
+}
+
+.projects--styles {
+    background-color: $bg;
+}
+
+.projects-title {
+    text-align: center;
+}
+
+.projects-title--styles {
+    font-size: 32px;
+    font-family: $fontmn;
+    color: $primaryclr;
+}
+
+.projects-list-grid {
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(1, 95%);
+    grid-template-rows: repeat(4, auto);
+}
+
+.intro-container {
+    margin: 5%;
+}
+.intro {
+    text-align: center;
+}
+
+.intro--styles {
+    font-family: $font2;
+    font-weight: 600;
+    color: lighten($color: $primaryclr, $amount: 8)
+}

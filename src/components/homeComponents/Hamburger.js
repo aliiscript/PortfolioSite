@@ -6,11 +6,11 @@ export default class Navbar extends Component {
     render() {
         return (
             <nav className="hamburger hamburger--styles">
-                <input class="bar" type="checkbox" id="b" />
-                <label for="b">
-                    <div class="bar__element one"></div>
-                    <div class="bar__element two"></div>
-                    <div class="bar__element three"></div>
+                <input className="bar" type="checkbox" id="b" />
+                <label htmlFor="b">
+                    <div className="bar__element one"></div>
+                    <div className="bar__element two"></div>
+                    <div className="bar__element three"></div>
                 </label>
             </nav>
         );

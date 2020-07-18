@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$bg: #C5C5C5;
+$primaryclr: #4153FA;
+
+$fontmn: 'Ubuntu Mono',
+monospace;
+$fontbld: 'Ubuntu Mono',
+bold;
+
+.skills {
+    width: 90.2%;
+    padding: 5%;
+    height: auto;
+}
+
+.skills--styles {
+    background-color: $primaryclr;
+}

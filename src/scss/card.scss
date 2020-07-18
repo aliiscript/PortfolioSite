@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$bg: #C5C5C5;
+$primaryclr: #4153FA;
+$secondaryclr: #F141FA;
+
+$fontmn: 'Ubuntu Mono',
+monospace;
+$fontbld: 'Ubuntu Mono',
+bold;
+$font2: 'Roboto',
+sans-serif;
+
+
+.card {
+    width: 87%;
+    height: auto;
+    margin: 25px;
+}
+
+.card--styles {
+    background-color: $bg;
+    border-radius: 15px;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+        0 3px 14px 2px rgba(0, 0, 0, 0.12),
+        0 5px 5px -3px rgba(0, 0, 0, 0.20);
+
+}
+
+.icon-container {
+    text-align: center;
+    padding: 10%;
+}
+
+.icon2 {
+    position: absolute;
+    left: 45.2%;
+}
+
+.icon2--styles {
+    color: $primaryclr;
+}
+
+.icon {
+    color: $secondaryclr;
+}
+
+.title {
+    text-align: center;
+}
+
+.title--styles {
+    font-family: $fontbld;
+    color: $primaryclr;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.summary {
+    padding: 5%;
+    text-align: center;
+}
+
+.summary--styles {
+    font-family: $font2;
+    font-weight: 600;
+    color: lighten($color: $primaryclr, $amount: 8)
+}
+
+.tools-title{
+    text-align: center;
+    padding: 5%;
+}
+
+.tools-title--styles {
+    font-family: $fontmn;
+    color: $primaryclr;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.tools-list {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.tools-list--styles {
+    font-family: $font2;
+    font-weight: 600;
+    color: lighten($color: $primaryclr, $amount: 8)
+}
+
+.tool {
+    padding: 1.5%;
+}

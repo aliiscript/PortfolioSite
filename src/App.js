@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
 
-import Home from "./components/Home";
+import Main from "./components/Main";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 
 class App extends Component {
@@ -11,7 +12,7 @@ class App extends Component {
         return (
             <Router>
                 <Switch>
-                    <Route exact path="/" component={Home} />
+                    <Route exact path="/" component={Main} />
                 </Switch>
             </Router>
         );

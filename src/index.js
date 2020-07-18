@@ -5,6 +5,8 @@ import "./scss/reset.scss";
 import "./scss/hamburger.scss";
 import "./scss/index.scss";
 import "./scss/faceAnimation.scss";
+import "./scss/skills.scss";
+import "./scss/card.scss";
 
 import App from "./App";
 
